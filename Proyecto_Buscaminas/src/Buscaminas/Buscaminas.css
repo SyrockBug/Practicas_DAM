@@ -1,0 +1,58 @@
+
+/*IMPORTANTE: las imágenes que he añadido "fondoOlas.jpeg" y "iconoBarco.png" están bajo licencia Creative Commons*/
+
+/* Estilo general de la ventana */
+.root {
+    -fx-background-color: #2f6bba;
+    -fx-font-family: Arial;
+}
+
+/*Estilo del GridPane(tablero)*/
+.tablero{
+    -fx-background-image: url("fondoOlas.jpeg");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+/* Texto del estado del juego */
+.estado {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* Casillas del tablero */
+.button.casilla {
+    -fx-background-color: rgba(101, 167, 239, 0.95);
+    -fx-border-color: #888888;
+    -fx-font-size: 24px;
+    
+    /*Aplanamos y cuadramos los botones*/
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-background-insets: 0;
+    -fx-border-width: 1px;
+}
+
+/* Cuando pasamos el ratón por encima */
+.button.casilla:hover {
+    -fx-background-color: rgb(80, 172, 242);
+    -fx-background-image: url("iconoBarco.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 70% 70%;
+}
+
+/* Cuando la casilla ya está abierta */
+.button.abierta {
+    -fx-background-color: rgba(101, 167, 239, 0.2);
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    
+}
+
+/*Forzamos la casilla abierta a ser opaca para que se vean bien las imagenes y los números*/
+.button.casilla:disabled {
+    -fx-opacity: 1.0;
+}

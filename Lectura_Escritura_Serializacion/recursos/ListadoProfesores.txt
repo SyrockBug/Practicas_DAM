@@ -1,0 +1,3 @@
+Juan Martinez;Matemáticas;2015-07-15;Ciencias;Álgebra,Geometría,Trigonometría,Cálculo.
+Laura Sánchez;Filosofía;2019-09-30;Humanidades;Ética,Metafísica,Historia de la filosofía,Pensamiento crítico.
+Pedro Gómez;Informática;2025-04-12;Tecnología;Programación,Redes,Seguridad informática,Sistemas operativos.
