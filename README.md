@@ -14,7 +14,7 @@
  | Proyecto | Tecnologías | Módulo |
  | --- | --- | --- |
  | Lectura_Escritura_Serializacion | Java (JDK 17), Ant | Programación |
- | Proyecto_Buscaminas | Java (JDK 17), JavaFX 17, Ant | Programación |
+ | Proyecto_Buscaminas | Java (JDK 17), JavaFX 17, CSS, Ant | Programación |
  | Seguridad_en_redes_y_servidores | VisualRoute,  Kali Linux (MV), nmap, XAMPP, Nessus | Seguridad en la Red |
  | Tratamiento_de_archivos_cifrados | VeraCrypt, Kali Linux (MV) | Seguridad en la Red |
 
@@ -31,6 +31,6 @@
  | Project | Tecnologies | Subject |
  | --- | --- | --- |
  | Read_Write_Serialization | Java (JDK 17), Ant | Programming |
- | Project_MineSweeper | Java (JDK 17), JavaFX 17, Ant | Programming |
+ | Project_MineSweeper | Java (JDK 17), JavaFX 17, CSS, Ant | Programming |
  | Online_and_WebServer_ Security| VisualRoute,  Kali Linux (MV), nmap, XAMPP, Nessus | Cybersecurity |
  | Manangment_Encripted_Files | VeraCrypt, Kali Linux (MV) | Cybersecurity |
